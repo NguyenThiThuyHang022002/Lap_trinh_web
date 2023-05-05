@@ -1,0 +1,101 @@
+  @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
+
+:root{
+   --red:#c0392b;
+   --orange:#f39c12;
+   --orange2:#f5cd79;
+   --black:#333;
+   --white:#fff;
+   --light-color:#666;
+   --light-white:#ccc;
+   --light-bg:#f5f5f5;
+   --border:.1rem solid var(--black);
+   --blue:#0652DD;
+   --box-shadow:0 5px 10px rgba(0,0,0,.2);
+}
+body{
+    width: 100%;
+    height: auto;
+    background-color: var(--orange2);
+    line-height: 1.8;
+}
+.container{
+width: 50%;
+height: 450px;
+padding: 10px;
+background: var(--white);
+border-radius: 10px; /*bo góc*/
+box-shadow:var(--box-shadow); /*tạo bóng cho hộp*/
+ margin-left: 350px;
+ margin-top: 100px;
+
+
+
+}
+.signin-image{
+    /* border: 1px var(--black) solid; */
+    width: 40%;
+    height: 400px;
+    float: left;
+    margin-top: 20px
+ }
+
+.signin-form{
+    width: 40%;
+    height: 350px;
+    /* border: 1px var(--black) solid; */
+    float:right;
+    margin-top: 80px;
+
+    /* padding:20px; */
+ }
+ 
+ .signup-image-link{
+    margin-left: 150px;
+    text-decoration: none;
+    color: var(--blue);
+ }
+ .signup-image-link:hover{
+    color: var(--orange);
+
+ }
+ .form-title{
+    font-family: 'Rubik', sans-serif;
+ }
+
+  .box{
+    width: 70%;
+    border-radius: 5px;
+    background-color: var(--light-bg);
+    padding:5px 7px;
+    font-size: 15px;
+    color:var(--black);
+    border:var(--border);
+    margin:10px 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+ }
+span{
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+ }
+ .form-submit{
+margin-left: 70px;
+margin-top: 10px;
+font-family: 'Rubik', sans-serif;
+font-size: 15px;
+background: var(--white);
+border-radius: 10px;
+border: var(--blue);
+width: 90px;
+height: 40px;
+background: var(--blue);
+color: var(--white);
+ }
+ .form-submit:hover{
+    background: var(--orange2);
+    color: var(--black);
+
+ }

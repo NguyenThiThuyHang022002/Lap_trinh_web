@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
+
+:root{
+   --red:#c0392b;
+   --orange:#f39c12;
+   --orange2:#f5cd79;
+   --black:#333;
+   --white:#fff;
+   --light-color:#666;
+   --light-white:#ccc;
+   --light-bg:#f5f5f5;
+   --border:.1rem solid var(--black);
+   --box-shadow:0 5px 10px rgba(0,0,0,.1);
+}
+body{
+    background-color: var(--orange);
+}
+/* LOGIN */
+/* body{
+    width: 100%;
+    background-color: var(--orange);
+} */
+.form-container{
+    min-height: 100vh;
+    background-color:var(--orange);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:20px;
+ }
+.form-container form{
+    padding:20px;
+    width: 500px;
+    border-radius: 10px; /*bo góc*/
+    box-shadow: var(--box-shadow); /*tạo bóng cho hộp*/
+    border:var(--border); 
+    background-color: var(--white);
+    text-align: center;
+    /* position:relative;
+    animation-name: dich_chuyen;
+    animation-iteration-count:infinite;
+    animation-duration: 5s; */
+ }
+ /* @keyframes dich_chuyen{
+    0%   {left:0px;}
+    100%  {left:400px;}
+ } */
+.form-container form h3{
+    font-size: 35px;
+    margin-bottom: 10px;
+    /* text-transform: uppercase;  tất cả chữ đều viết hoa*/
+    color:var(--black);
+    font-family: 'Rubik', sans-serif;
+}
+
+.form-container form .box{
+    width: 93%;
+    border-radius: 5px;
+    background-color: var(--light-bg);
+    padding:12px 14px;
+    font-size: 15px;
+    color:var(--black);
+    border:var(--border);
+    margin:10px 0;
+ }
+ 
+ .form-container form p{
+    padding-top: 15px;
+    font-size: 15px;
+    color:var(--black);
+    font-family: 'Rubik', sans-serif;
+ }
+ 
+ .form-container form p a{
+    color:var(--orange);
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+ }
+ 
+ .form-container form p a:hover{
+    text-decoration: underline;
+ }
+ .form-container form span{
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    float:left;
+    /* border: 1px black solid; */
+ }
+
+ .btn,
+.option-btn,
+.delete-btn,
+.white-btn{
+   display: inline-block;
+   margin-top: 10px;
+   padding:10px 30px;
+   cursor: pointer;
+   color:var(--black);
+   font-size: 18px;
+   border-radius: 5px;
+   /* text-transform: capitalize; */
+}
+
+.btn:hover,
+.option-btn:hover,
+.delete-btn:hover{
+   background-color: var(--orange);
+}

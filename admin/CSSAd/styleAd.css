@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
+:root{
+    --red:#c0392b;
+    --orange:#f39c12;
+    --orange2:#f5cd79;
+    --black:#333;
+    --white:#fff;
+    --light-color:#666;
+    --light-white:#ccc;
+    --light-bg:#f5f5f5;
+    --border:.1rem solid var(--black);
+    --box-shadow:0 5px 10px rgba(0,0,0,.1);
+ }
+ body{
+    background-color: var(--orange);
+ }
+
+ .header{
+    width: 100%;
+    height: 10%;
+    padding: 5px;
+    border-bottom: 1px black solid;
+}
+.flex{
+    width: 80%;
+    height: 95px;
+    margin-left: 50px;
+    /* border: 1px black solid; */
+
+}
+ .box-logo
+ {
+    float: left;
+    width:50%;
+ } 
+ .logo{
+    text-decoration: none;
+    color: var(--white);
+    font-size: 30px;
+ }
+.logo:hover {
+ font-size: 33px;
+ color: var(--orange2);
+}
+
+ .text-inforAd{
+  float:left;
+  width: 50%;
+  margin-top: 40px;
+  text-align: center;
+  /* margin-left: 50px; */
+  /* border: 1px black solid; */
+} 
+/* .DN-DK{
+    color: var(--black);
+    text-decoration: none;
+}
+.DN-DK:hover{
+    /* font-size: 20px; */
+    /* color: var(--orange);
+}  */
+
+.sidebar{
+    border-right: 1px var(--black) solid;
+    height:90%;
+    width: 20%;
+    /* margin-top: 5px; */
+    margin-left: 5px;
+    float:left; /* cho side bar đổ về bên trái thì các thành phần sau cũng đổ về bên trái*/
+ }
+
+ ul.list_sidebar {
+    padding: 0;
+    width: 100%;
+    list-style: none; /* bỏ dấu chấm của list*/
+    line-height: 25px; /*thiết lập chiều cao giữa các dòng*/
+ }
+ 
+ 
+ ul.list_sidebar li{
+     margin: 7px;
+     padding: 5px;
+     width: 200px;
+    }
+ 
+ ul.list_sidebar li:hover{
+    background: khaki; 
+ }
+ 
+ ul.list_sidebar li a{
+     text-decoration: none; /*bỏ dấu gạch chân dưới list*/
+     text-align: left; /*text vào chính giữa cái hover*/
+     color:var(--black);
+     display: block; /* khi hover ở trên cùng 1 dòng đều có con trỏ chuột bàn tay*/
+     font-family: 'Rubik', sans-serif;
+     font-size: 18px;
+     margin-top: 28px;
+ }
+
+ ul.list_sidebar li i{
+   padding-left: 5px;
+ }
+ .maincontent{
+    /* border-left: 1px var(--black) solid; */
+    height:90%;
+    width: 80%;
+    /* margin-top: 5px;
+    margin-left: 5px; */
+    float: right;
+    background: var(--white);
+ }
+
+ 
+
+
+ .list_sidebar .sub-menu a:hover{
+   color: #e1f2e3;
+}
+
+
+.product{
+list-style: none;
+}
+
+.drop_menu:hover{
+   background: var(--orange);
+   
+
+}
+.maincontent{
+   width: 79%;
+   margin-top: 10px;
+   height: 90%;
+   float:right;
+}
+

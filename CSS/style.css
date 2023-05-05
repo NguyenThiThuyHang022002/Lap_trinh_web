@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
+
+:root{
+   --red:#c0392b;
+   --orange:#f39c12;
+   --orange2:#f5cd79;
+   --black:#333;
+   --white:#fff;
+   --light-color:#666;
+   --light-white:#ccc;
+   --light-bg:#f5f5f5;
+   --border:.1rem solid var(--black);
+   --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+ 
+}
+body{
+    background-image:url(../images/index.jpg);
+    width: 100%;
+    font-family: 'Rubik', sans-serif;
+    margin:0; 
+    padding:0;
+    box-sizing: border-box; /*chiều rộng của content sẽ thay đổi nếu như boder và padding thay đổi
+    /* outline: none; border:none; */
+    text-decoration: none;
+    transition:all .2s linear; /*điều khiển tốc độ của hiệu ứng ngay khi thay đổi các thuộc tính có trong CSS*/
+ }
+
+ .header-1{
+    width: 100%;
+    height: 80px;
+    padding: 5px;
+    /* border: 1px black solid; */
+}
+.flex{
+    width: 80%;
+    height: 95px;
+    margin-left: 250px;
+    /* border: 1px black solid; */
+
+}
+ .box-logo
+ {
+    float: left;
+    width:50%;
+ } 
+ .logo{
+    text-decoration: none;
+    color: var(--orange);
+    font-size: 30px;
+ }
+.logo:hover {
+ font-size: 33px;
+ color: var(--orange2);
+}
+
+
+ .text-DN-DK{
+  float:left;
+  width: 50%;
+  margin-top: 40px;
+  /* border: 1px black solid; */
+} 
+.DN-DK{
+    color: var(--black);
+    font-family:'Rubik', sans-serif;
+    text-decoration: none;
+}
+.DN-DK:hover{
+    color: var(--orange);
+}
+
+.header-2{
+    width: auto;
+    height: 50px;
+    /* padding: 5px; */
+    /* border: 1px black solid; */
+}
+.menu{
+    height: 50px;
+    width: 80%;
+    margin-left: 300px;
+    padding: 0;
+    line-height: 0px; /*thiết lập chiều cao giữa các dòng*/
+/* border: 1px black solid; */
+}
+ul.list_menu li{
+    float:left;  /*menu ngang*/
+    margin: 7px;
+    padding: 5px;
+}
+ul.list_menu {
+    list-style: none;
+}
+ul.list_menu a{
+    text-decoration: none;
+    color: var(--black);
+}
+ul.list_menu a:hover{
+    color: var(--orange);
+}
+ .main{
+    width: 100%;
+    height: auto;
+    max-height: auto;
+    /* background: var(--white); */
+    /* border:  1px #c0392b solid; */
+ }
+.section-A1{
+    float: right;
+    width: 40%;
+    height: 200px;
+    margin-top: 50px;
+    margin-right: 150px;
+    padding-top:300px ;
+    /* background-image: url("../images/TrangChu1A.png" ); 
+    background-repeat: no-repeat;  */
+    /* filter:brightness(50%); */
+} 
+ .section-A1 p{
+    font-family: 'Rubik', sans-serif;
+    color: var(--white);
+    /* filter: brightness(0%); */
+}
+
+.footer{
+    background-color: var(--orange);
+    width: 100%;
+    height: 230px;
+}
+.box{
+    width: 45%;
+    float:left;
+    /* margin-left: 100px; */
+    text-align: right;
+}
+.box-1{
+    width: 45%;
+    float:right;
+}
+div.box-1 a{
+    text-decoration: none;
+}
+
+/* LOGIN */
+.form-container{
+    min-height: 100vh;
+    background-color: var(--light-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:2rem;
+ }
+.form-container form{
+    padding:20px;
+    width: 500px;
+    border-radius: 5px; /*bo góc*/
+    box-shadow: var(--box-shadow); /*tạo bóng cho hộp*/
+    border:var(--border); 
+    background-color: var(--white);
+    text-align: center;
+ }
+.form-container form h3{
+    font-size: 35px;
+    margin-bottom: 10px;
+    /* text-transform: uppercase;  tất cả chữ đều viết hoa*/
+    color:var(--black);
+    font-family: 'Rubik', sans-serif;
+}
+
+.form-container form .box{
+    width: 93%;
+    border-radius: 5px;
+    background-color: var(--light-bg);
+    padding:12px 14px;
+    font-size: 18px;
+    color:var(--black);
+    border:var(--border);
+    margin:10px 0;
+ }
+ 
+ .form-container form p{
+    padding-top: 15px;
+    font-size: 20px;
+    color:var(--black);
+ }
+ 
+ .form-container form p a{
+    color:var(--orange);
+    text-decoration: none;
+ }
+ 
+ .form-container form p a:hover{
+    text-decoration: underline;
+ }
+ .form-container form span{
+    text-align: left;
+    margin-left: 0;
+    /* border: 1px black solid; */
+ }
+
+ .btn,
+.option-btn,
+.delete-btn,
+.white-btn{
+   display: inline-block;
+   margin-top: 10px;
+   padding:10px 30px;
+   cursor: pointer;
+   color:var(--black);
+   font-size: 18px;
+   border-radius: 5px;
+   /* text-transform: capitalize; */
+}
+
+.btn:hover,
+.option-btn:hover,
+.delete-btn:hover{
+   background-color: var(--orange);
+}
+
+     
+
+
